@@ -1,11 +1,13 @@
 here is the code for adding two number in c++
 
-#include<iosteream>
+#include<iostream>
 using namnespace std;
+int add(int a,int b){
+return a+b;}
 int main(){
 
 int a,int b;
 cin>>a>>b;
-cout<<"sum of the two number is "<a+b<<endl;
+cout<<"sum of the two number is "<add(a,b)<<endl;
 return 0;
 }
